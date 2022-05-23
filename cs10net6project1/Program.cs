@@ -32,6 +32,21 @@ namespace Basics
 
             System.Data.DataSet ds;
             HttpClient client;
+
+            double heightInMeters = 1.88;
+            Console.WriteLine($"The variable {nameof(heightInMeters)} has the value {heightInMeters}.");
+
+            char letter = 'A';
+            char digit = '1';
+            char symbol = '$';
+
+            string firstName = "Bob";
+            string lastName = "Smith";
+            string phoneNumber = "(215)555-4256";
+
+            string fullNameWithTabSeparator = "Bob\tSmith";
+            string filePath = "C:\televisions\sony";
+            string filePath2 = @"C:\televisions\sony";
         }
 
     }

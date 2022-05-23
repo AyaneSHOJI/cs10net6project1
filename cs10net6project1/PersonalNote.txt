@@ -3,3 +3,7 @@
 N = Number : Integral and decimal digits, group separators, and a decimal separator with optional negative sign.
 N1 1,234.0
 N3 1,234.560
+
+-Naming rules
+Camel case = Local variables, private fields
+Pascale case = Types, non-private fields, and other members like methods
