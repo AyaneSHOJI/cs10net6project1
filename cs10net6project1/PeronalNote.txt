@@ -1,1 +1,5 @@
-﻿
+﻿-Custom numeric format strings
+{0:N0}
+N = Number : Integral and decimal digits, group separators, and a decimal separator with optional negative sign.
+N1 1,234.0
+N3 1,234.560
