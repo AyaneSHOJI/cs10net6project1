@@ -8,6 +8,9 @@ C = Currency
 -> ¥123
 https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings
 
+full syntax is
+{ index [, alignment] [:formatString]}
+
 -Naming rules
 Camel case = Local variables, private fields
 Pascale case = Types, non-private fields, and other members like methods

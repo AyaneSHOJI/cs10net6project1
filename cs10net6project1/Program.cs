@@ -81,6 +81,22 @@ namespace Basics
                 format: "{0} apples costs {1:C}",
                 arg0: numberOfApples,
                 arg1: pricePerApple * numberOfApples);
+
+            Console.Write("Type your name and press Enter :");           
+            string? firstName1 = Console.ReadLine();
+
+            Console.Write("Type your age and press Enter :");
+            string? age1 = Console.ReadLine();
+
+            Console.WriteLine($"Hello {firstName1}, you look good for {age1}.");
+
+            Console.Write("Press any key combination:");
+            ConsoleKeyInfo key = Console.ReadKey();
+            Console.WriteLine();
+            Console.WriteLine("Key : {0}, Char: {1}, Modifiers: {2}",
+                arg0: key.Key,
+                arg1: key.KeyChar,
+                arg2: key.Modifiers);
         }
 
     }
