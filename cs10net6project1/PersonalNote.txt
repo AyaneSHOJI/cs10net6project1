@@ -7,3 +7,6 @@ N3 1,234.560
 -Naming rules
 Camel case = Local variables, private fields
 Pascale case = Types, non-private fields, and other members like methods
+
+-Real numbers
+Never compare double values using ==
