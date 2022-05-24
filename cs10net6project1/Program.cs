@@ -69,6 +69,18 @@ namespace Basics
             Person kim = new();
             kim.BirthDate = new(1967, 12, 26);
             Console.WriteLine(kim.BirthDate);
+
+            int numberOfApples = 12;
+            decimal pricePerApple = 0.35M;
+            Console.WriteLine(
+                format: "{0} apples costs {1:C}",
+                arg0: numberOfApples,
+                arg1: pricePerApple * numberOfApples);
+
+            string formatted = string.Format(
+                format: "{0} apples costs {1:C}",
+                arg0: numberOfApples,
+                arg1: pricePerApple * numberOfApples);
         }
 
     }
